@@ -1,0 +1,72 @@
+.login{
+    background:url('../asset/bg2.jpg');
+    background-repeat: no-repeat;
+    background-size: auto;
+    background-position: center;
+    height: 100vh;
+    width: 100vw;
+    padding:7% 0;
+    .loginForm{
+        // margin:0 auto;
+        position: absolute;
+        top:50%;
+        left:50%;
+        transform: translate(-50%,-50%);
+        height: auto;
+        padding:20px 20px 0 20px;
+        border-radius: 10px;
+        background-color: $color-white-0;
+        .input__line{
+            background:none;
+            border-bottom: 1.5px solid $color-red-0;
+            font-size: 15px;
+            font-weight: $fw-2;
+            box-shadow: none;
+            &::after{
+                content:'';
+                width: 100px;
+                height: 3px;
+                display: block;
+                background:linear-gradient(to right,#f8a193,$color-red-0) ;
+                box-shadow: 0 0 20px 0 #f8a193;
+                transition: 0.5s;
+            }
+            &:hover{
+                &::after{
+                    width: 100%;
+                }
+                
+            }
+        }
+        
+        .forgotPassword{
+            color:$color-red-0;
+            font-weight: $fw-1;
+        }
+        .registerLink{
+            color:$color-red-0;
+            font-weight: $fw-1;
+        }
+        .buttonLogin{
+            width: 100%;
+            font-size: 17px;
+            border-radius: 5px;
+            padding:5px 30px;
+            outline: none;
+            border: 1px solid $color-red-0;
+            color: $color-white-0;
+            background-color: $color-red-0;
+            transition: .5s;
+            &:hover{
+                border: 1px solid $color-gray-0;
+                color:$color-gray-0;
+                background-color: $color-white-0;
+            }
+        }
+        input {
+            border: none;
+        }
+    }
+    
+}
+

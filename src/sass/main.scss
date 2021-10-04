@@ -1,0 +1,33 @@
+
+
+// import Helper
+@import './Helper/mixin';
+@import './Helper/variables';
+
+// import Base
+@import './Base/reset';
+
+
+
+// import Layouts
+// home
+@import './Layouts/header';
+@import './Layouts/carousel';
+@import './Layouts/formGetSticket';
+@import './Layouts//tab';
+@import './Layouts/listCinema';
+@import './Layouts/introduce';
+@import './Layouts/footer';
+@import './Layouts/article';
+@import './Layouts/listComment';
+@import './Layouts/movieShedule';
+// admin
+@import './Layouts/Admin/adminHeader';
+
+// import Pages
+@import './Pages/login';
+@import './Pages/register';
+@import './Pages/detailFilm';
+@import './Pages/bookingStickets';
+//Components
+@import './Components/tabComponent';   
