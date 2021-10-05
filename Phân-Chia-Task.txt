@@ -1,0 +1,15 @@
+Nhóm BC11_GP03
+
+1. Ngô Huỳnh Đức: Giao diện người dùng
++ Task 1: Khởi tạo dự án
++ Task 2: Bắt đầu dự án (Trang Chủ)
++ Task 3: Đăng kí/Đăng Nhập
++ Task 4: Phim( liệt kê danh sách phim, chi tiết phim, lịch chiếu, đặt vé)
++ Task 5: Người dùng
+
+2.Đặng Bình An: Giao diện admin
++ Task 6: Khởi tạo trang admin
++ Task 7: Dashboard
++ Task 8: Quản lý người dùng(Thêm, xóa, sửa người dùng)
++ Task 9: Quản lý Phim (Thêm, xóa, sửa Phim)
++ Task 10: Quản lý lịch chiếu
